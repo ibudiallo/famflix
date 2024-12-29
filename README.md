@@ -2,6 +2,8 @@
 
 FamFlix is a private family streaming service designed to unify and simplify the way families upload, process, store, and consume their cherished videos. This platform allows families to securely share and enjoy their memories through an intuitive, Netflix-like interface.
 
+This project is for educational purpose only.
+
 ---
 
 ## Project Overview
@@ -13,18 +15,18 @@ FamFlix is built with the following key components:
 
 ---
 
-## Business Requirement Documents (BRDs)
+## Business Requirement Documents (BRD)
 The project is structured around three core BRDs that outline the functional and technical requirements of each component:
 
-1. [**Video Upload and Processing BRD**](#)
+1. [**Video Upload and Processing BRD**](BRD/01-processing.md)
    - Describes the process for uploading videos, processing them into multiple formats, and saving metadata.
    - Includes details about the servers, software, and configurations required for efficient video processing.
 
-2. [**Storage BRD**](#)
+2. [**Storage BRD**](BRD/02-storage.md)
    - Focuses on storing processed videos with a cost-effective lifecycle policy.
    - Discusses options like AWS S3 and DigitalOcean for managing raw and processed files.
 
-3. [**Distribution BRD**](#)
+3. [**Distribution BRD**](BRD/03-distribution.md)
    - Covers the creation of a user-friendly interface for streaming videos and interacting with content.
    - Highlights features like adaptive streaming, commenting, and secure access.
 
@@ -38,7 +40,7 @@ To get started, a prototype Node.js application has been outlined. The prototype
 - Storing metadata and thumbnails in a MySQL database.
 - Playing the processed videos in an HTML5 video player.
 
-The detailed instructions for building this prototype can be found in the project’s [Prototype Guide](#).
+The detailed instructions for building this prototype can be found in the project’s [Prototype Guide](prototype/README.md).
 
 ---
 
@@ -49,6 +51,7 @@ As the platform evolves, several features are planned for implementation:
 - **AI Recommendations:** Personalized video suggestions based on user preferences.
 - **Live Streaming:** Real-time streaming capabilities for family events.
 - **Offline Viewing:** Allow users to download videos for offline playback.
+- **Photos:** Allow users to upload photos
 
 ---
 
