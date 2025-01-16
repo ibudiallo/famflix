@@ -1,5 +1,7 @@
 # Business Requirement Document (BRD): Video Processing Service
 
+See the [uptocloud](../uptocloud/) folder for a prototype
+
 ## Executive Summary
 This document outlines the requirements for a service that enables video uploads, processes them into multiple resolutions and streaming formats, and prepares them for storage and distribution. The scope of this document is limited to video upload and processing. Storage will be addressed in a separate BRD.
 
