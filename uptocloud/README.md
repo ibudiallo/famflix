@@ -48,6 +48,10 @@ This prototype provides a service for uploading videos, transcoding them, and cr
    ```
    npm start
    ```
+4. Start the queue processor:
+   ```
+   node bin/worker.js
+   ```
 
 ### Future Enhancements
 
